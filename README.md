@@ -53,3 +53,66 @@ This project aims to create a simple automated system that manages bus seat rese
 3. Compile the program:
    ```bash
    gcc bus_reservation.c -o bus
+   User Login Credentials
+Username	Password
+user1	pass1
+user2	pass2
+user3	pass3
+user4	pass4
+user5	pass5
+Bus Information
+Bus Number	Source	Destination	Total Seats	Fare
+101	City A	City B	50	500
+102	City C	City D	40	400
+103	City E	City F	30	300
+Project Structure
+Bus-Reservation-System/
+│
+├── bus_reservation.c
+└── README.md
+
+Working of the System
+
+The user logs in using a valid username and password.
+
+After login, the user can book tickets, cancel tickets, or check bus status.
+
+Seat availability updates automatically after booking or cancellation.
+
+The user can log out or exit the system.
+
+Limitations
+
+Data is not stored permanently (no file handling).
+
+Seat numbers are not assigned individually.
+
+No admin module.
+
+Future Scope
+
+Add file handling for permanent storage
+
+Introduce admin panel
+
+Seat number allocation
+
+Online payment integration
+
+Academic Details
+
+Student Name: Pushkar
+
+University: SGT University
+
+Course: B.Tech
+
+Specialization: Computer Science Engineering (AI & ML)
+
+Author
+
+Pushkar
+B.Tech CSE (AI & ML)
+SGT University
+
+
